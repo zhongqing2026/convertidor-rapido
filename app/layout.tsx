@@ -9,9 +9,9 @@ import Script from "next/script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "ConvertidorRapido.org - Conversiones de unidades rápidas y precisas",
+  title: "Convertidor Rapido - Conversiones de unidades rápidas y precisas",
   description:
-    "Convertidor rápido online para todo tipo de unidades: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas.",
+    "Convertidor rapido online para todo tipo de unidades: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas.",
   keywords:
     "convertidor rapido, convertidor unidades, pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos, numeros romanos, conversor medidas, calculadora unidades",
   icons: {
@@ -37,7 +37,7 @@ export const metadata = {
     locale: "es_ES",
     url: "https://convertidorrapido.org",
     siteName: "ConvertidorRapido.org",
-    title: "ConvertidorRapido.org - Conversiones de unidades rápidas y precisas",
+    title: "Convertidor Rapido - Conversiones de unidades rápidas y precisas",
     description: "Herramientas de conversión de unidades online rápidas, precisas y fáciles de usar.",
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary",
-    title: "ConvertidorRapido.org - Conversiones de unidades rápidas y precisas",
+    title: "Convertidor Rapido - Conversiones de unidades rápidas y precisas",
     description: "Herramientas de conversión de unidades online rápidas, precisas y fáciles de usar.",
     images: ["/android-chrome-512x512.png"],
   },
