@@ -55,7 +55,7 @@ export const metadata = {
     images: ["/android-chrome-512x512.png"],
   },
   verification: {
-    google: "verificacion-google", // Reemplazar con tu código de verificación real
+    google: "uJi9CPMc6Didsi2G268YCQAwvhn50M711S9brYFzy6M", // Reemplazar con tu código de verificación real
   },
     generator: 'v0.dev'
 }
