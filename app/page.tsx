@@ -5,9 +5,9 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "ConvertidorRapido.org | Conversiones de unidades rápidas y precisas",
+  title: "Convertidor Rapido | Conversiones de unidades rápidas y precisas",
   description:
-    "Convertidor rápido de unidades online: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas para todo tipo de conversiones.",
+    "Convertidor rapido de unidades online: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas para todo tipo de conversiones.",
   keywords:
     "convertidor rapido, convertidor de unidades, convertidor online, convertidor pulgadas a mm, convertidor cm a pulgadas, convertidor gramos a onzas, convertidor litros a kilos, convertidor numeros romanos, conversor medidas, calculadora unidades",
 }
