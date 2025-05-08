@@ -9,7 +9,7 @@ import Script from "next/script"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Convertidor Rapido - Conversiones de unidades rápidas y precisas",
+  title: "Convertidor Rapido - Conversiones de unidades rápidas",
   description:
     "Convertidor rapido online para todo tipo de unidades: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas.",
   keywords:
@@ -37,7 +37,7 @@ export const metadata = {
     locale: "es_ES",
     url: "https://convertidorrapido.org",
     siteName: "ConvertidorRapido.org",
-    title: "Convertidor Rapido - Conversiones de unidades rápidas y precisas",
+    title: "Convertidor Rapido - Conversiones de unidades rápidas",
     description: "Herramientas de conversión de unidades online rápidas, precisas y fáciles de usar.",
     images: [
       {
