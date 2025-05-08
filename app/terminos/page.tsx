@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default function TerminosPage() {
-  const fechaActualizacion = "1 de mayo de 2024"
+  const fechaActualizacion = "8 de mayo de 2025"
 
   return (
     <div className="container mx-auto px-4 py-8">
