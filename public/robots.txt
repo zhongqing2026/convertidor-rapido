@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Permitir a todos los robots acceder a todo el contenido
+Sitemap: https://convertidorrapido.org/sitemap.xml
+
+# Bloquear directorios que no necesitan ser indexados
+Disallow: /api/
+Disallow: /_next/
+
+# Permitir a Googlebot acceder a todo
+User-agent: Googlebot
+Allow: /
+
+# Permitir a Bingbot acceder a todo
+User-agent: Bingbot
+Allow: /
