@@ -5,7 +5,7 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Convertidor Rapido | Conversiones de unidades rápidas y precisas",
+  title: "Convertidor Rapido | Conversiones de unidades rápidas",
   description:
     "Convertidor rapido de unidades online: pulgadas a mm, litros a kilos y números romanos. Herramientas gratuitas y precisas para todo tipo de conversiones.",
   keywords:
