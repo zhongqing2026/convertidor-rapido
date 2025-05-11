@@ -1,6 +1,9 @@
 import { type NextRequest, NextResponse } from "next/server"
 import { apiMiddleware } from "@/lib/security"
 
+// 这一行是新添加的，用于指定 Edge Runtime
+export const runtime = 'edge';
+
 // Caché en memoria para tasas de cambio
 const ratesCache: {
   [key: string]: {
@@ -32,6 +35,7 @@ async function handler(req: NextRequest) {
     }
 
     // Si no hay caché o está obsoleta, obtener datos frescos
+    // 注意：在 Edge Runtime 中，fetch 的 URL 必须是绝对路径
     const response = await fetch(`https://open.er-api.com/v6/latest/${baseCurrency}`)
 
     if (!response.ok) {
