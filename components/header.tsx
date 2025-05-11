@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Logo } from "@/components/logo"
 
+// Actualizar el array de categorías para incluir la nueva categoría de divisas
 const categories = [
   {
     name: "Longitud",
@@ -43,6 +44,20 @@ const categories = [
     name: "Sistemas Numéricos",
     href: "/sistemas-numericos",
     tools: [{ name: "Números Romanos", href: "/sistemas-numericos/numeros-romanos" }],
+  },
+  {
+    name: "Temperatura",
+    href: "/temperatura",
+    tools: [
+      { name: "Celsius a Fahrenheit", href: "/temperatura/celsius-a-fahrenheit" },
+      { name: "Fahrenheit a Celsius", href: "/temperatura/fahrenheit-a-celsius" },
+      { name: "Celsius a Kelvin", href: "/temperatura/celsius-a-kelvin" },
+    ],
+  },
+  {
+    name: "Divisas",
+    href: "/divisas",
+    tools: [{ name: "USD a EUR", href: "/divisas/usd-a-eur" }],
   },
 ]
 

@@ -3,7 +3,7 @@
   <!-- Página principal -->
   <url>
     <loc>https://convertidorrapido.org/</loc>
-    <lastmod>2024-05-08</lastmod>
+    <lastmod>2024-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -182,5 +182,19 @@
     <lastmod>2024-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+
+  <!-- Páginas de divisas -->
+  <url>
+    <loc>https://convertidorrapido.org/divisas</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://convertidorrapido.org/divisas/usd-a-eur</loc>
+    <lastmod>2024-05-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

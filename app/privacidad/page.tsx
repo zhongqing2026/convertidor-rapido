@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default function PrivacidadPage() {
-  const fechaActualizacion = "8 de mayo de 2025"
+  const fechaActualizacion = "1 de mayo de 2024"
 
   return (
     <div className="container mx-auto px-4 py-8">

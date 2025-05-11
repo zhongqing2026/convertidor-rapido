@@ -15,3 +15,11 @@ Allow: /
 # Permitir a Bingbot acceder a todo
 User-agent: Bingbot
 Allow: /
+
+# Permitir a Yandex acceder a todo
+User-agent: Yandex
+Allow: /
+
+# Permitir a Baidu acceder a todo
+User-agent: Baiduspider
+Allow: /

@@ -86,6 +86,16 @@ export default function HerramientasPage() {
         { name: "Celsius a Kelvin", href: "/temperatura/celsius-a-kelvin", desc: "Convertidor de Celsius a Kelvin" },
       ],
     },
+    {
+      category: "Divisas",
+      items: [
+        {
+          name: "USD a EUR",
+          href: "/divisas/usd-a-eur",
+          desc: "Convertidor de dólares a euros",
+        },
+      ],
+    },
   ]
 
   return (

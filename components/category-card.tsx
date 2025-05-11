@@ -1,5 +1,14 @@
 import Link from "next/link"
-import { Ruler, Weight, FlaskRoundIcon as Flask, Hash, Thermometer, Grid, type LucideIcon } from "lucide-react"
+import {
+  Ruler,
+  Weight,
+  FlaskRoundIcon as Flask,
+  Hash,
+  Thermometer,
+  Grid,
+  Banknote,
+  type LucideIcon,
+} from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 interface CategoryCardProps {
@@ -17,6 +26,7 @@ export function CategoryCard({ title, description, icon, href }: CategoryCardPro
     Hash,
     Thermometer,
     Grid,
+    Banknote,
   }
 
   const IconComponent = icons[icon]

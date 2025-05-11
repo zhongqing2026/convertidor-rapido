@@ -5,9 +5,9 @@ import type { Metadata } from "next"
 import Script from "next/script"
 
 export const metadata: Metadata = {
-  title: "Convertidor Rapido | Conversiones de unidades rápidas",
+  title: "ConvertidorRapido.org | Conversiones de unidades rápidas y precisas",
   description:
-    "Convertidor rapido de unidades online: pulgadas a mm, litros a kilos y números romanos. Herramientas gratuitas y precisas para todo tipo de conversiones.",
+    "Convertidor rápido de unidades online: pulgadas a mm, cm a pulgadas, gramos a onzas, litros a kilos y números romanos. Herramientas gratuitas y precisas para todo tipo de conversiones.",
   keywords:
     "convertidor rapido, convertidor de unidades, convertidor online, convertidor pulgadas a mm, convertidor cm a pulgadas, convertidor gramos a onzas, convertidor litros a kilos, convertidor numeros romanos, conversor medidas, calculadora unidades",
 }
@@ -50,6 +50,12 @@ export default function Home() {
               description="Conversiones entre Celsius, Fahrenheit y Kelvin. Convertidor de temperatura preciso y fácil de usar."
               icon="Thermometer"
               href="/temperatura"
+            />
+            <CategoryCard
+              title="Divisas"
+              description="Conversiones entre diferentes monedas como USD a EUR. Convertidor de divisas con tasas de cambio en tiempo real."
+              icon="Banknote"
+              href="/divisas"
             />
             <CategoryCard
               title="Todas las Herramientas"
